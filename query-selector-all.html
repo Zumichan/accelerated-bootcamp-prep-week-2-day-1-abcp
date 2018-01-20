@@ -13,5 +13,6 @@
 const listItems = document.getElementById("app").querySelectorAll("ul.ranked-list li")
 
 for (i=0; i<listItems.length;i++){
-listItems[i].innerHTML = "i+1";
+listItems[i].innerHTML = (i+1).toString;
+return listItems;
 }
